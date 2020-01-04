@@ -1,0 +1,62 @@
+/******************* SOURCES *******************
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif; 
+https://colorhunt.co/palette/167893
+*/
+
+
+body {
+    background-color: #bbe1fa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/******************* NAV BAR *******************/
+
+nav {
+    background-color: #3282b8;
+}
+
+nav a:hover{
+    text-decoration: none;
+}
+nav a{
+    color: #3282b8;
+}
+
+.nav-right-elem {
+    background-color: #0f4c75;
+    color: #3282b8;
+}
+.nav-right-elem:hover{
+    background-color: #bbe1fa;
+}
+
+.dropdown-menu {
+    background-color: #0f4c75;
+}
+
+.mid-btn {
+    border-radius: 0;
+}
+
+.container-fluid {
+    padding: 3%;
+}
+
+.navbar h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #bbe1fa;
+}
+
+/******************* NEWS *******************/
+
+.card img {
+    width: 200px;
+    border-radius: 15%;
+}
+
+.card footer {
+    padding: 20px;
+    font-size: 0.8rem;
+}
