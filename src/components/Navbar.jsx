@@ -24,6 +24,11 @@ function Navbar() {
                         <a className="dropdown-item nav-right-elem" href="#">Another action</a>
                         <a className="dropdown-item nav-right-elem" href="#">Something else here</a>
                     </div>
+                    <button
+                        type="button"
+                        className="btn btn-lg nav-right-elem mid-btn">
+                        <Link to="/create">CREATE</Link>
+                    </button>
                     <button type="button" className="btn btn-lg nav-right-elem">
                         <Link to="/contact">CONTACT</Link>
                     </button>

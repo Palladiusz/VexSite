@@ -60,3 +60,22 @@ nav a{
     padding: 20px;
     font-size: 0.8rem;
 }
+
+
+/******************* CREATE *******************/
+
+
+input[type=text] {
+    width: 25%;
+}
+
+input[type=textarea] {
+    width: 80%;
+    padding: 100px;
+}
+
+.btn-create {
+    padding: 20px;
+    margin: 5%;
+    display: inline-block;
+}
