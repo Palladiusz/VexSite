@@ -1,30 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
 import Post from "./Post";
-import Create from "./Create"
 
 
-function Home() {
+function Home(props) {
 
-    const [posts, setPosts] = useState([]);
-
-    function addPost(newPost) {
-        setPosts(prevPosts => {
-            return [...prevPosts, newPost];
-        });
-    };
 
 
     return (
         <div>
-            <div><Create onAdd={addPost} /></div>
-        {posts.map(postItem => {
+        {props.posts.map((postItem, index) => {
             return (
                 <Post
+                key={index}
+                id={index}
                 title={postItem.title}
                 content={postItem.content}
                 />
             )
         })}
+
         </div>
     )
 

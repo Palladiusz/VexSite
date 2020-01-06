@@ -6,7 +6,7 @@ function Post(props) {
     return(
         <div className="container-fluid col-lg">
             <div className="card">
-                <div class="card-header">
+                <div className="card-header">
                     <img src={loli} className="card-img-top" alt="Img-1"/>
                 </div>
                 <div className="card-body">
